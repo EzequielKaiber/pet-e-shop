@@ -1,0 +1,102 @@
+footer {
+    background-color: #FF0077;
+    padding: 80px 0;
+}
+footer .footer-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footer-itens .footer-item {
+    width: calc(33% - 15px);
+    height: fit-content;
+}
+footer .footer-itens .footer-item h2 {
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+footer .footer-itens .footer-item ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-itens .footer-item ul li.title {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+footer .footer-itens .footer-item ul li {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+footer .footer-itens .footer-item ul li a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer .footer-itens .footer-item h1 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+footer .footer-itens .footer-item.social-items {
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-itens .footer-item p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+footer .footer-itens .footer-item .social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+footer .footer-itens .footer-item .social a {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 16px;
+}
+footer .footer-itens .footer-item .social a svg {
+    height: 30px;
+    width: 30px;
+    fill: #fff;
+    transition: ease-in-out 0.32s;
+    transform: scale(1) rotate(0deg);
+}
+footer .footer-itens .footer-item .social a:hover svg {
+    transform: scale(1.1) rotate(10deg);
+    transition: ease-in-out 0.32s;
+}
+footer .copy {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer .copy p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+footer .copy p a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
